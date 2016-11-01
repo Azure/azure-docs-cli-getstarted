@@ -28,4 +28,4 @@ on whatever platform you use.
 
     You'll be prompted to log in using your credentials.
 
-Now you can run [any command](../../cli) that accesses your account. If you have feedback, use `az feedback` to let us know.
+Now you can run [any command](../index.md) that accesses your account. If you have feedback, use `az feedback` to let us know.
