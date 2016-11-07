@@ -19,13 +19,6 @@ on whatever platform you use.
 2. Run `az` with no arguments to verify the installation. You should get a page like this:
 
     ```
-        /\
-       /  \    _____   _ _ __ ___
-      / /\ \  |_  / | | | \'__/ _ \
-     / ____ \  / /| |_| | | |  __/
-    /_/    \_\/___|\__,_|_|  \___|
-
-
     Welcome to the cool new Azure CLI!
 
     Here are the base commands:
