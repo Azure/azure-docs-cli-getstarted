@@ -20,12 +20,54 @@ on whatever platform you use.
 
 3. Log in to your Azure account.
 
-    `az login`
+    ```azurecli
+    az login
+    ```
 
     You'll be prompted to open https://aka.ms/devicelogin and enter a code.
 
-    `To sign in, use a web browser to open the page https://aka.ms/devicelogin. Enter the code ******** to authenticate.`
+    ```azurecli
+    To sign in, use a web browser to open the page https://aka.ms/devicelogin. Enter the code ******** to authenticate.
+    ```
 
     You'll be prompted to log in using your credentials.
+    
+Now you can run any command that accesses your account.
 
-Now you can run [any command](../index.md) that accesses your account. If you have feedback, use `az feedback` to let us know.
+Here are some other things to try:
+
+- Create a resource group
+
+    ```azurecli
+    az resource group create -l westus -n MyRG
+    ```
+
+- Create a VM
+
+    ```azurecli
+    az vm create -g MyRG -n MyVM --admin-username admin --admin-password Password@1234
+    ```
+
+- Look at more [samples](https://github.com/Azure/azure-cli-samples).
+
+- Get help.
+
+    ```azurecli
+    az [command-group [command]] -h
+    ```
+
+    For example, to get see what commands and subgroups are available for VMs, use
+
+    ```azurecli
+    az vm -h
+    ```
+
+    To get help with the command to create a VM, use
+
+    ```azurecli
+    az vm create -h
+    ```
+
+- Read the [API reference docs](../index.md).
+
+- Send us your feedback using `az feedback`.
