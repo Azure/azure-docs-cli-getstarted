@@ -18,21 +18,21 @@ on whatever platform you use.
 
 2. Run the `az` command to verify the installation.
 
-3. Log in to your Azure account.
+3. Run the login command.
 
     ```azurecli
     az login
     ```
-
+    
     You'll be prompted to open https://aka.ms/devicelogin and enter a code.
 
-    ```azurecli
-    To sign in, use a web browser to open the page https://aka.ms/devicelogin. Enter the code ******** to authenticate.
-    ```
+4. Use a web browser to open the page https://aka.ms/devicelogin and enter the code to authenticate.
 
     You'll be prompted to log in using your credentials.
     
-Now you can run any command that accesses your account.
+5. Login in.
+
+    Now you can run any command that accesses your account.
 
 Here are some other things to try:
 
