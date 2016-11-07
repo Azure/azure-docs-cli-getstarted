@@ -16,7 +16,40 @@ ms.assetid: 85c418a8-6177-4833-bb8d-ff4ce2233c1a
 1. [Install Azure CLI 2.0 Preview](https://github.com/Azure/azure-cli/blob/master/doc/preview_install_guide.md)
 on whatever platform you use.
 
-2. Run the `az` command to verify the installation.
+2. Run `az` with no arguments to verify the installation. You should get a page like this:
+
+    ```
+        /\
+       /  \    _____   _ _ __ ___
+      / /\ \  |_  / | | | \'__/ _ \
+     / ____ \  / /| |_| | | |  __/
+    /_/    \_\/___|\__,_|_|  \___|
+
+
+    Welcome to the cool new Azure CLI!
+
+    Here are the base commands:
+
+        account  : Manages stored and default subscriptions.
+        acs      : Manage Azure container services.
+        ad       : Synchronize on-premises directories and manage Azure Active Directory (AAD)
+                resources.
+        cloud    : Manage the Azure clouds registered.
+        component: Manages and updates Azure CLI components.
+        configure: Interactive experience for setting up the Azure CLI.
+        context  : Manage contexts.
+        feedback : Loving or hating the CLI?  Let us know!
+        login    : Log in to access Azure subscriptions.
+        logout   : Log out to remove accesses to Azure subscriptions.
+        network  : Manages Network resources.
+        provider : Manage resource providers.
+        resource : Generic commands to manage Azure resources.
+        role     : Use role assignments to manage access to your Azure resources.
+        storage  : Durable, highly available, and massively scalable cloud storage.
+        tag      : Manage resource tags.
+        vm       : Provision Linux and Windows virtual machines in minutes.
+        vmss     : Create highly available, auto-scalable Linux or Windows virtual machines.
+    ```
 
 3. Run the login command.
 
