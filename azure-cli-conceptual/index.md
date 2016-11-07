@@ -68,6 +68,6 @@ Here are some other things to try:
     az vm create -h
     ```
 
-- Read the [API reference docs](../index.md).
+- Read the [API reference docs](https://docs.microsoft.com/cli/azure).
 
 - Send us your feedback using `az feedback`.
