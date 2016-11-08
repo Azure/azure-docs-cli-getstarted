@@ -39,7 +39,7 @@ As we set out to develop our next generation of command-line tools, we quickly s
   We must have up-to-date tools that let our customers immediately take advantage of that service. 
 
 As we applied these principles, we realized that the scope of improvements went beyond a few breaking changes,
-and when combined with the feedback we’ve received about our XPlat CLI,
+and when combined with the feedback we’ve received about our old CLI,
 it made sense to start from the ground up.
 This choice allowed us to focus exclusively on the resource manager [deployment model](https://docs.microsoft.com/azure/resource-manager-deployment-model).
 
