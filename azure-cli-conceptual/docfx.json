@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -30,7 +31,7 @@
     "globalMetadata": {
       "brand": "azure",
       "searchScope": ["Azure"],
-      "breadcrumb_path": "/bread/toc.json"
+      "breadcrumb_path": "/cli/azure/get-started/bread/toc.json"
     },
     "fileMetadata": {},
     "template": [],
