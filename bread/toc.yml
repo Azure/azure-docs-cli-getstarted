@@ -1,0 +1,14 @@
+- name: Azure
+  tocHref: /azure/
+  topicHref: /azure/index
+  items:
+  - name: Azure 2.0 CLI Preview
+    tocHref: /cli/azure/
+    topicHref: /cli/azure/index
+    items:
+      - name: Get started
+        tocHref: /cli/azure/get-started/
+        topicHref: /cli/azure/get-started
+      - name: Old and new CLIs
+        tocHref: /cli/azure/get-started/old-and-new-clis/
+        topicHref: /cli/azure/get-started/old-and-new-clis
