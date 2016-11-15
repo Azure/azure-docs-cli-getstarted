@@ -27,7 +27,10 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "brand": "azure",
+      "searchScope": ["Azure"]
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "cli/azure/get-started"
