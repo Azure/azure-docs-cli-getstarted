@@ -29,7 +29,8 @@
     "externalReference": [],
     "globalMetadata": {
       "brand": "azure",
-      "searchScope": ["Azure"]
+      "searchScope": ["Azure"],
+      "breadcrumb_path": "/bread/toc.json"
     },
     "fileMetadata": {},
     "template": [],
