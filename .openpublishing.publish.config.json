@@ -15,7 +15,11 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "template_folder": "_themes"
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "customized_template_paths": [
+        "azurecli/azurecli"
+      ]
     }
   ],
   "notification_subscribers": [],
