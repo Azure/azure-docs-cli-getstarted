@@ -1,5 +1,5 @@
 ---
-redirect_url: /install-az-cli2
+redirect_url: /cli/azure/install-az-cli2
 ---
 
 # Get started with Azure 2.0 CLI Preview
