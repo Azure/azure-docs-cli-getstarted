@@ -7,7 +7,7 @@ manager: douge
 ms.date: 11/14/2016
 ms.topic: article
 ms.prod: azure
-ms.technology: azure
+ms.service: azure
 ms.assetid: 80ae9f6c-adb7-483c-bfb4-fbb958e075ba
 ---
 
